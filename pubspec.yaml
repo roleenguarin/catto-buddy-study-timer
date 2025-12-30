@@ -1,0 +1,73 @@
+name: final_project
+description: "Cat Buddy Timer is a study timer app created by Roleen Guarin, a BS Computer Science student of University of Santo Tomas College of Information and Computing Sciences for a ICS26011 Final Project submission.The app aims to find the balance between aesthetics and functionality by using aesthetics as a motivational tool. "
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^4.0.4
+  flutter_svg: ^2.0.10+1
+  image_input: ^0.0.5
+  wakelock_plus: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/backgrounds/default.jpg
+    - assets/cats/blackcat.png
+    - assets/cats/browncat.png
+    - assets/cats/gingercat.png
+    - assets/cats/tilapiacat.png
+    - assets/cats/tuxedocat.png
+    - assets/cats/whitecat.png
+    - assets/home/coin.png
+    - assets/home/logsIcon.png
+    - assets/home/timerIcon.png
+    - assets/home/logs/logBook.png
+    - assets/home/logs/logDaily.png
+    - assets/home/logs/logMonth.png
+    - assets/home/logs/logWeek.png
+    - assets/home/storeDialog/questionMark.png
+    - assets/home/storeDialog/questionMarkBG.png
+    - assets/home/timer/clock.png
+    - assets/home/timer/clock.svg
+    - assets/home/timer/playButton.png
+  fonts:
+    - family: Antipasto
+      fonts:
+        - asset: assets/fonts/Antipasto/AntipastoPro-Bold_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-DemiBold_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-ExtraBold_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-Extralight_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-Hairline_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-Light_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-Medium_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-Thin_trial.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro-Thin_trial 2.ttf
+        - asset: assets/fonts/Antipasto/AntipastoPro_trial.ttf
+    - family: LexendExa
+      fonts:
+        - asset: assets/fonts/LexendExa/LexendExa-VariableFont_wght.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-Black.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-Bold.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-ExtraLight.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-Light.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-Medium.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-Regular.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-SemiBold.ttf
+        - asset: assets/fonts/LexendExa/static/LexendExa-Thin.ttf
+    - family: PoiretOne
+      fonts:
+        - asset: assets/fonts/PoiretOne/PoiretOne-Regular.ttf
